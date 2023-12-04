@@ -1,6 +1,6 @@
 type BuildMakePerson = {
   getUUID: () => string;
-  getAge: (birthdate: string) => string;
+  getAge: (birthdate: string) => number;
 };
 type Person = {
   name: string;
